@@ -44,7 +44,7 @@ export const projects: Project[] = [
     timeline: "2026",
     role: "Design & Development",
     client: "Freelance",
-    websiteUrl: "https://workouts-xi-eight.vercel.app/",
+    websiteUrl: "https://repstr.vercel.app/",
     websiteLabel: "repstr.app",
     logoUrl: "/projects/repstr/repstr-mark.svg",
     summary:
@@ -89,6 +89,12 @@ export const projects: Project[] = [
         alt: "Angled phone showing the Repstr exercise logging screen for hack squats with set inputs",
         caption: "Logging: sets, reps and weight entry during a session.",
         poster: "/projects/repstr/4-poster.jpg",
+      },
+      {
+        url: "/projects/repstr/5.mp4",
+        alt: "Close-up of the Repstr login screen with the wordmark, tagline and email and password fields",
+        caption: "Sign in: the login screen with the Repstr wordmark.",
+        poster: "/projects/repstr/5-poster.jpg",
       },
     ],
   },
