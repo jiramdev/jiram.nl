@@ -5,6 +5,7 @@ import NavigationHeader from "@/components/NavigationHeader";
 import FlyingLoader from "@/components/FlyingLoader";
 import FloatingDock from "@/components/FloatingDock";
 import ScrollToTop from "@/components/ScrollToTop";
+import SmoothScroll from "@/components/SmoothScroll";
 import { LoaderProvider } from "@/components/PageLoaderContext";
 import { INTRO_BOOTSTRAP } from "@/lib/intro";
 import {
@@ -120,6 +121,7 @@ export default function RootLayout({
         />
         <LoaderProvider>
           <MotionConfig reducedMotion="user">
+            <SmoothScroll />
             <ScrollToTop />
             <NavigationHeader />
             <main>{children}</main>

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "motion/react";
 import { EMAIL } from "@/lib/site";
+import { scrollSmoothToTop } from "@/components/SmoothScroll";
 import { useLoader } from "@/components/PageLoaderContext";
 import { EASE } from "@/lib/motion";
 
@@ -39,7 +40,7 @@ export default function FloatingDock() {
             // Already home: not a navigation, so scroll up by hand.
             if (!isHome) return;
             event.preventDefault();
-            window.scrollTo({ top: 0, behavior: "smooth" });
+            scrollSmoothToTop();
           }}
           className={`${itemClass} ${
             isHome
