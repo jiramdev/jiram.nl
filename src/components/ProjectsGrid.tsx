@@ -31,7 +31,12 @@ function ProjectCard({
       }`}
     >
       {cover.type === "video" ? (
-        <VideoPlayer src={cover.url} poster={cover.poster} alt={cover.alt} />
+        <VideoPlayer
+          src={cover.url}
+          poster={cover.poster}
+          alt={cover.alt}
+          preload="auto"
+        />
       ) : (
         <Image
           src={cover.url}
