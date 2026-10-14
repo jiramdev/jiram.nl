@@ -67,10 +67,28 @@ export const projects: Project[] = [
     // captures. Add the case study media here when there is some.
     gallery: [
       {
-        url: "/projects/repstr/repstr-logo-loop.mp4",
-        alt: "The Repstr mark assembling from two folded strokes on lavender",
-        caption: "Primary mark, animated from its two folded halves.",
-        poster: "/projects/repstr/repstr-logo-poster.jpg",
+        url: "/projects/repstr/1.mp4",
+        alt: "Close-up of the Repstr home screen on a phone showing a scheduled legs day with workout and weight stats",
+        caption: "Home: today's session with workout and weight stats.",
+        poster: "/projects/repstr/1-poster.jpg",
+      },
+      {
+        url: "/projects/repstr/2.mp4",
+        alt: "Angled iPhone showing the Repstr week schedule with push, pull, legs and rest days",
+        caption: "Schedule: the training week and saved plans.",
+        poster: "/projects/repstr/2-poster.jpg",
+      },
+      {
+        url: "/projects/repstr/3.mp4",
+        alt: "Close-up of the Repstr statistics screen showing body weight and completed workouts",
+        caption: "Statistics: body weight and completed workouts at a glance.",
+        poster: "/projects/repstr/3-poster.jpg",
+      },
+      {
+        url: "/projects/repstr/4.mp4",
+        alt: "Angled phone showing the Repstr exercise logging screen for hack squats with set inputs",
+        caption: "Logging: sets, reps and weight entry during a session.",
+        poster: "/projects/repstr/4-poster.jpg",
       },
     ],
   },
